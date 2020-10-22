@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+
+    <ListView
+        android:id="@+id/listviewAmNhac"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/buton1"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="375dp">
+
+    </ListView>
+    <EditText
+        android:id="@+id/edittext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittext1"
+       android:text="Thêm"
+        android:id="@+id/buton1">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buton2"
+        android:text="Sửa"
+        android:layout_below="@+id/edittext1"
+        android:layout_marginLeft="50dp"
+        android:layout_toRightOf="@+id/buton1">
+</Button>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="HỒ MINH THẮNG-1811505310239"
+    android:layout_toRightOf="@+id/edittext1">
+
+</TextView>
+
+</RelativeLayout>
